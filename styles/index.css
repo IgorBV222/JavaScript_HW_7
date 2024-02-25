@@ -1,0 +1,41 @@
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 200px;
+    height: 400px;
+    margin:20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: 3px solid black;
+    border-radius: 16px;
+}
+
+.block{
+    width: 50%;
+    height: 25%;  
+
+    border-radius: 50%;
+    border: 3px solid black;
+    
+    animation-duration: 0.3s;
+}
+
+#off-on{
+    width: 100px;
+    padding: 10px;
+
+    border-radius: 6px;
+    border: 2px solid black;
+}
